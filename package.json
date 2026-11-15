@@ -1,0 +1,24 @@
+{
+  "name": "expensewise",
+  "version": "1.0.0",
+  "description": "ExpenseWise - Full-Stack Personal Expense & Budget Tracker (MERN)",
+  "scripts": {
+    "server": "npm run dev --prefix backend",
+    "client": "npm run dev --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "test": "npm test --prefix backend",
+    "test:api": "npm run test:api --prefix backend",
+    "build": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "mern",
+    "expense-tracker",
+    "budget",
+    "finance",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "ExpenseWise Team",
+  "license": "ISC"
+}
